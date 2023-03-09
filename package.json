@@ -1,0 +1,52 @@
+{
+  "name": "package-version-upgrade-manager",
+  "version": "1.0.0",
+  "description": "Manage and report package version upgrades based on pre-defined version policies",
+  "main": "src/run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pvum": "./bin/pvum"
+  },
+  "keywords": [
+    "package",
+    "version",
+    "upgrade",
+    "manager",
+    "report",
+    "dependencies",
+    "rules",
+    "policies",
+    "libraries",
+    "notify",
+    "notifications",
+    "cli",
+    "script",
+    "detect",
+    "outdated",
+    "categories",
+    "slack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianmandrup/package-version-upgrade-manager"
+  },
+  "bugs": {
+    "url": "https://github.com/kristianmandrup/package-version-upgrade-manager/issues",
+    "email": "kmandrup@gmail.com"
+  },
+  "author": "Kristian Mandrup",
+  "license": "ISC",
+  "dependencies": {
+    "diff-dates": "^1.0.14",
+    "got": "^11.8.2",
+    "json2xls": "^0.1.2",
+    "latest-semver": "^4.0.0",
+    "read-pkg": "^7.0.0",
+    "registry-url": "^6.0.0",
+    "semver": "^7.3.7",
+    "semver-diff": "^4.0.0",
+    "yargs": "^17.2.1"
+  }
+}
